@@ -1,3 +1,5 @@
+Test application using react and retejs.
+
 # how to start
 1. git clone git@github.com:hirokuni/react-app-test-with-retejs.git
 2. cd react-app-test-with-retejs.git
