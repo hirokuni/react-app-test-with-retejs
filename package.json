@@ -7,8 +7,11 @@
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5",
     "rete": "^1.0.0-alpha.10",
+    "rete-area-plugin": "^0.1.6",
     "rete-connection-plugin": "^0.2.0",
-    "rete-vue-render-plugin": "^0.2.1"
+    "rete-context-menu-plugin": "^0.1.4",
+    "rete-vue-render-plugin": "^0.2.1",
+    "vue": "^2.5.17"
   },
   "scripts": {
     "start": "react-scripts start",

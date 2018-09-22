@@ -3,5 +3,3 @@
 2. cd react-app-test-with-retejs.git
 3. npm install
 4. npm start
-
-Currently, this application build fails!
