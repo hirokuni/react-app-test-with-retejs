@@ -3,3 +3,5 @@
 2. cd react-app-test-with-retejs.git
 3. npm install
 4. npm start
+
+![Test Application](./screen.png "Screen Image")
