@@ -2,66 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-////////////////////
+////////// retejs //////////
 import Rete from "rete";
 import AreaPlugin from "rete-area-plugin"
 import ConnectionPlugin from 'rete-connection-plugin';
 import VueRenderPlugin from 'rete-vue-render-plugin';
 import ContextMenuPlugin from 'rete-context-menu-plugin'
-
-// console.log('rete start')
-
-// const numSocket = new Rete.Socket('Number value');
-
-// class NumComponent extends Rete.Component {
-//   constructor() {
-//     super('Number');
-//   }
-
-//   builder(node) {
-//     let out = new Rete.Output('Number', numSocket);
-
-//     node.addOutput(out);
-//   }
-
-//   worker(node, inputs, outputs) {
-//     outputs[0] = node.data.num;
-//   }
-// }
-
-// (async() => {
-//   const container = document.querySelector('#rete');
-//   let components = [new NumComponent()];
-
-//   const editor = new Rete.NodeEditor('demo@0.1.0', container);
-  
-//   editor.use(ConnectionPlugin)
-//   editor.use(VueRenderPlugin)
-//   editor.use(AreaPlugin);
-//   editor.use(ContextMenuPlugin)
-  
-//   const numComponent = new NumComponent();
-//   editor.register(numComponent);
-  
-//   const engine = new Rete.Engine('demo@0.1.0');
-//   engine.register(numComponent);
-  
-//   editor.on('process nodecreated noderemoved connectioncreated connectionremoved', async () => {
-//     console.log('editor on start')
-//     await engine.abort();
-//     await engine.process(editor.toJSON());
-//     console.log('editor on end')
-//   });
-  
-//   editor.view.resize();
-//   AreaPlugin.zoomAt(editor);
-//   editor.trigger('process');
-  
-// })
-
-
-// console.log('rete end')
-/////////////////////////////
 var numSocket = new Rete.Socket('Number value');
 
 var VueNumControl = {
@@ -193,6 +139,7 @@ class AddComponent extends Rete.Component {
     editor.trigger('process');
 })();
 ////////////////////////////////////
+
 class App extends Component {
   render() {
     return (
